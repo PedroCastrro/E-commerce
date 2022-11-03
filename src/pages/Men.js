@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 import Men0 from '../imagem/men.jpg';
 import Men1 from '../imagem/men1.jpg';
@@ -15,11 +17,38 @@ function Men() {
      <body>
       <main>
         <section>
-          <img src={ Men0 } alt="" />
-          <img src={ Men1} alt="" />
-          <img src={ Men2 } alt="" />
-          <img src={ Men3} alt="" />
-          <img src={ Men4} alt="" />
+        <Carousel>
+        <Carousel.Item>
+          <img
+            src={ Men0 }
+            alt="Primeira"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Men1 }
+            alt="Segunda"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Men2 }
+            alt="Terceira"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Men3 }
+            alt="Quarta"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Men4 }
+            alt="Quarta"
+          />
+        </Carousel.Item>
+      </Carousel>
         </section>
       </main>
      </body>

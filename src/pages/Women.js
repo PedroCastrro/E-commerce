@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 import Women0 from '../imagem/Women.jpg';
 import Women1 from '../imagem/Women1.webp';
@@ -14,11 +16,38 @@ function Women() {
         <Header />
       <body>
         <main>
-          <img src={ Women0 } alt="" />
-          <img src={ Women1 } alt="" />
-          <img src={ Women2 } alt="" />
-          <img src={ Women3 } alt="" />
-          <img src={ Women4 } alt="" />
+        <Carousel>
+        <Carousel.Item>
+          <img
+            src={ Women0 }
+            alt="Primeira"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Women1 }
+            alt="Segunda"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Women2 }
+            alt="Terceira"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Women3 }
+            alt="Quarta"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={ Women4 }
+            alt="Quarta"
+          />
+        </Carousel.Item>
+      </Carousel>
         </main>
       </body>
     </div>
