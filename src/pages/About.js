@@ -1,4 +1,5 @@
 import React from 'react'
+import {Body} from '../styles/styles'
 
 import Logo from '../imagem/logo.svg'
 
@@ -8,7 +9,7 @@ function About() {
   return (
     <div>
       <Header />
-      <body>
+      <Body>
         <main>
           <img src={Logo} alt="" />
           <section>
@@ -46,7 +47,7 @@ function About() {
             </p>
           </section>
         </main>
-      </body>
+      </Body>
     </div>
   )
 }

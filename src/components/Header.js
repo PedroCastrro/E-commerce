@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Navbar, Ul, Li} from '../styles/styles';
+import { Navbar, Ul, Li, Img2, Img3} from '../styles/styles';
 
 import Logo from '../imagem/logo.svg'
 import Sale from '../imagem/icon-cart.svg'
@@ -30,8 +30,8 @@ export default function Header() {
             <Link to="/Conect">Conect</Link>
           </Li>
         </Ul>
-        <img src={Sale} alt="" />
-        <img src={Avatar} alt="" />
+        <Img2 src={Sale} alt="" />
+        <Img3 src={Avatar} alt="" />
       </Navbar>
     </div>
   )
